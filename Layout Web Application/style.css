@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+nav {
+    background-color: purple;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+
+    
+}
+h1{
+    float:left; 
+    color:#FFF; 
+    font-size:40px;  
+     background-color:black;  
+    padding:20px;
+    padding-bottom: 1200px;
+    padding-top: 30px;
+    
+
+}
+nav > a {
+    float: left;
+    margin-left: 50px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: rgba(141, 35, 176, 0.509);
+    padding: 10px 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    
+}
+
+nav > a:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: purple;
+    transition: 0.3s;
+}
+
+.btn-lixo {
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: orangered;
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+}
+
+.btn-lixo:hover {
+    background-color: darkred;
+    transition: 0.3s;
+}
+
+.btn-email{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+
+}
+
+
